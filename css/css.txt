@@ -173,13 +173,24 @@ Reference 2:
 
 14) break points used in media quires in your project?
 Reference 1:
+Rather than try to target @media rules at specific devices, it is arguably more practical to base them on your particular layout instead. That is, gradually narrow your desktop browser window and observe the natural breakpoints for your content. It's different for every site. As long as the design flows well at each browser width, it should work pretty reliably on any screen size (and there are lots and lots of them out there.)
 Reference 2:
+Approaching the design mobile first is the best approach for a responsive design. It allows you to layout the content that is most important to your customers in a clear and logical way on the smallest screen real-estate. This will force you to really identify what is the most important information on your site.
 Reference 3:
 Reference 4:
 Reference 5:
 
 ==========================================================================================================================================================================
 15) cross browser compatibilty and polyfills used?
+Reference 1:
+Cross-browser refers to the ability of a website, web application, HTML construct or client-side script to function in environments that provide its required features and to bow out or degrade gracefully when features are absent or lacking. Ability to test a web application across different browsers to check how the application functionality behaves across all the tested browsers.
+Reference 2:
+Reference 3:
+Reference 4:
+Reference 5:
+
+==========================================================================================================================================================================
+
 16) what is responsive web design?
 17) preprocessor?
 18) name spaces in css?
