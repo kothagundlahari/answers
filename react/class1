@@ -1,0 +1,49 @@
+what are lifecycle methods in React Components?
+Reference 1:
+componentWillMount:
+is executed before rendering, on both server and client side.
+
+componentDidMount:
+is executed after first render only on the client side. This is where AJAX requests and DOM or state updates should occur. This method is also used for integration with other JavaScript frameworks and any functions with delayed execution like setTimeout or setInterval. We are using it to update the state so we can trigger the other lifecycle methods.
+
+componentWillReceiveProps:
+ is invoked as soon as the props are updated before another render is called.
+
+shouldComponentUpdate:
+ should return true or false value. This will determine if component will be updated or not. This is set to true by default. If you are sure that component doesn't need to render after state or props are updated, you can return false value.
+
+componentWillUpdate:
+ is called just before rendering.
+
+componentDidUpdate:
+ is called just after rendering.
+
+componentWillUnmount:
+is called after the component is unmounted from the dom. We are unmounting our component in main.js.
+
+==========================================================================================================================================================================
+when do you have use which life cycle method? use cases?
+Reference 1:
+componentWillMount:
+ constructor was called, which is where you should be setting up your component’s default configuration anyway.
+
+componentDidMount:
+Most Common Use Case: Starting AJAX calls to load in data for your component.
+
+componentWillReceiveProps:
+Most Common Use Case: Acting on particular prop changes to trigger state transitions.
+Can call setState: Yes.
+
+shouldComponentUpdate:
+Most Common Use Case: Controlling exactly when your component will re-render.
+Can call setState: No.
+
+
+componentWillUpdate:
+Most Common Use Case: Cleaning up any leftover debris from your component.
+Can call setState: No.
+
+==========================================================================================================================================================================
+what is state and props in React Components and when do you use which one of them? use cases?
+
+Prop type validations?

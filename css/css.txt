@@ -16,7 +16,7 @@ Inline-block elements:
 allow other elements to sit to their left and right
 respect top & bottom margins and padding
 respect height and width
-===============================================================================================================================================================
+========================================================================================================================================================================
 
 2) display none and visibility hidden differences
 Reference 1:
