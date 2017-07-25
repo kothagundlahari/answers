@@ -45,5 +45,24 @@ Can call setState: No.
 
 ==========================================================================================================================================================================
 what is state and props in React Components and when do you use which one of them? use cases?
+Reference 1:
+State:
+State is the place where the data comes from. You should always try to make your state as simple as possible and minimize number of stateful components.
+Props:
+The main difference between state and props is that props are immutable.
 
+Reference 2:
+
+Reference 3:
+Reference 4:
+Reference 5:
+
+
+
+==========================================================================================================================================================================
 Prop type validations?
+Reference 1:
+Properties validation is useful way to force correct usage of your components. This will help you during development to avoid future bugs and problems once your app become larger. It also makes code more readable since you can see how each component should be used.
+
+
+==========================================================================================================================================================================
